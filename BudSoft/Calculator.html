@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>Budsoft Jobs</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<link rel="stylesheet"
+	href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript" src="calcjs.js"></script>
+
+
+<body class="w3-container">
+	<div class="w3-red ">
+		<div class="w3-tag  w3-blue">B</div>
+		<div class="w3-tag   ">E</div>
+		<div class="w3-tag  w3-amber">A</div>
+		<div class="w3-tag  w3-blue">R</div>
+		<div class="w3-tag  w3-amber">I</div>
+		<div class="w3-tag ">S</div>
+		<div class="w3-tag w3-blue">H</div>
+		<br> <br> 
+	</div>
+
+
+<ul class="w3-navbar w3-blue">
+  <li><a href="mvc.html">MVC</a></li>
+  <li><a href="BudSoft.html">BudSoft</a></li>
+  <li><a href="Equal.html">"==" & "===" What's The Difference?</a></li>
+  <li><a href="CalculateArrayLists.html">CalculateArrayLists</a></li>
+  <li><a href="Calculator.html">Calculator</a></li>
+</ul>
+<br>
+	
+	<script>
+		var a, b;
+function setValues() {
+
+	
+    a =Number( document.getElementById("a").value);
+    b = Number( document.getElementById("b").value) ;
+}
+function sum(){
+	setValues();
+	result=a+b;
+	alert("the sum is equal to: "+result);
+}
+
+function rest(){
+	setValues();
+	result=a-b;
+	alert("the rest is equal to: "+result);
+}
+function mult(){
+	setValues();
+	result=a*b;
+	alert("the multy is equal to: "+result);
+}
+
+function div(){
+	setValues();
+	result=a/b;
+	alert("the div is equal to: "+result);
+
+}
+</script>
+		<div >
+		<input id="a" type="text"/>
+		<input id="b" type="text"/>
+		<input type="button" onclick="sum()" value="sum"/>
+		<input type="button" onclick="rest()" value="rest"/>
+		<input type="button" onclick="mult()" value="multyply"/>
+		<input type="button" onclick="div()" value="divide"/>
+		
+		<br>
+		<br>
+		
+	<div id="footer" class="w3-red w3-center">
+		<a href="http://bbbelad.wix.com/bearish"> </a>
+		<div class="w3-tag  w3-blue">B</div>
+		<div class="w3-tag   ">E</div>
+		<div class="w3-tag  w3-amber">A</div>
+		<div class="w3-tag  w3-blue">R</div>
+		<div class="w3-tag  w3-amber">I</div>
+		<div class="w3-tag ">S</div>
+		<div class="w3-tag w3-blue">H</div>
+
+		<address>
+			Written by Elad Bitton<br>
+			<p>
+				Contact information: <a href="mailto:bbbearish@gmail.com">bbbearish@gmail.com</a>
+				Phone Number: <a href=":Phone">054-4898816</a>
+			</p>
+			Visit My Network Activities at:<br> <a
+				href="http://bbbelad.wix.com/bearish">My Site</a> <br>
+			<a href="https://github.com/bbbearish">My GitHub Repo's</a> <br>
+			<a href="https://www.youtube.com/channel/UCyjvLElmyZSL5p8kI5VuP1g">My
+				YouTube Channel<br> <br> PT ISRAEL<br>
+		</address>
+	</div>
+
+</body>
+</html>
+
